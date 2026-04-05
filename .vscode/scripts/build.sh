@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-cd ~/LightYears
+cd /workspaces/space-shooter-game
 echo "------- Building Game -------"
 cmake -S . -B build
 cmake --build build -j$(nproc)

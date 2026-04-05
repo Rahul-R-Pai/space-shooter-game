@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Starting Game..."
-cd ~/LightYears/build/
+cd /workspaces/space-shooter-game/build/
 ./LightYearsGame

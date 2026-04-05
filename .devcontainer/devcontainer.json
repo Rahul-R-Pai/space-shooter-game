@@ -1,0 +1,27 @@
+{
+  "name": "LightYears",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "runArgs": [
+    "--env=DISPLAY",
+    "--env=WAYLAND_DISPLAY",
+    "--env=XDG_RUNTIME_DIR",
+    "--env=PULSE_SERVER",
+    "--volume=/tmp/.X11-unix:/tmp/.X11-unix:rw",
+    "--volume=/dev:/dev",
+    "--privileged"
+  ],
+
+  "containerEnv": {
+    "DISPLAY": "${localEnv:DISPLAY}"
+  },
+
+  "remoteUser": "vscode",
+
+  "extensions": [
+    "ms-vscode.cpptools",
+    "ms-vscode.cmake-tools"
+  ]
+}
