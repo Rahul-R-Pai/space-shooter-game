@@ -1,44 +1,45 @@
 {
-  "configurations": [
-    {
-      "browse": {
-        "databaseFilename": "${default}",
-        "limitSymbolsToIncludedHeaders": false
-      },
-      "includePath": [
-        "/opt/ros/noetic/include/**",
-        "/workspaces/devel/include/**",
-        "/workspaces/src/MPV/Perception/apriltag_ros/include/**",
-        "/workspaces/src/MPV/Perception/article_detector/include/**",
-        "/workspaces/src/MPV/Systems/zippy_diagnostics/bag_recorder/include/**",
-        "/workspaces/src/MPV/Drivers/bms_driver/include/**",
-        "/workspaces/src/MPV/Drivers/cognex_scanner/include/**",
-        "/workspaces/src/MPV/Systems/zippy_diagnostics/diagnostics_monitor/include/**",
-        "/workspaces/src/MPV/Communication/dds_client/include/**",
-        "/workspaces/src/MPV/Drivers/ifm3d-ros/include/**",
-        "/workspaces/src/MPV/Drivers/lower_level_driver/include/**",
-        "/workspaces/src/MPV/Systems/zippy_diagnostics/monitoring_bridge/include/**",
-        "/workspaces/src/MPV/Systems/zippy_diagnostics/monitoring/monitoring_core/include/**",
-        "/workspaces/src/MPV/Systems/rest_package/include/**",
-        "/workspaces/src/MPV/Systems/zippy_diagnostics/robot_activity/robot_activity/include/**",
-        "/workspaces/src/MPV/Systems/zippy_diagnostics/robot_activity/robot_activity_tutorials/include/**",
-        "/workspaces/src/MPV/Localization/robot_localization/include/**",
-        "/workspaces/src/MPV/Systems/rosbag_recorder/include/**",
-        "/workspaces/src/MPV/Drivers/safety_controller/include/**",
-        "/workspaces/src/MPV/Systems/twist_mux/include/**",
-        "/workspaces/src/MPV/Systems/ui_aggregator/include/**",
-        "/workspaces/src/MPV/Systems/veloce_attachment/include/**",
-        "/workspaces/src/MPV/Drivers/veloce_bt/include/**",
-        "/workspaces/src/MPV/Navigation/veloce_control/include/**",
-        "/workspaces/src/MPV/Drivers/velocity_smoother/include/**",
-        "/usr/include/**"
-      ],
-      "name": "ROS",
-      "intelliSenseMode": "gcc-x64",
-      "compilerPath": "/usr/bin/gcc",
-      "cStandard": "gnu11",
-      "cppStandard": "c++14"
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/noetic/include/**",
+                "/workspaces/devel/include/**",
+                "/workspaces/src/MPV/Perception/apriltag_ros/include/**",
+                "/workspaces/src/MPV/Perception/article_detector/include/**",
+                "/workspaces/src/MPV/Systems/zippy_diagnostics/bag_recorder/include/**",
+                "/workspaces/src/MPV/Drivers/bms_driver/include/**",
+                "/workspaces/src/MPV/Drivers/cognex_scanner/include/**",
+                "/workspaces/src/MPV/Systems/zippy_diagnostics/diagnostics_monitor/include/**",
+                "/workspaces/src/MPV/Communication/dds_client/include/**",
+                "/workspaces/src/MPV/Drivers/ifm3d-ros/include/**",
+                "/workspaces/src/MPV/Drivers/lower_level_driver/include/**",
+                "/workspaces/src/MPV/Systems/zippy_diagnostics/monitoring_bridge/include/**",
+                "/workspaces/src/MPV/Systems/zippy_diagnostics/monitoring/monitoring_core/include/**",
+                "/workspaces/src/MPV/Systems/rest_package/include/**",
+                "/workspaces/src/MPV/Systems/zippy_diagnostics/robot_activity/robot_activity/include/**",
+                "/workspaces/src/MPV/Systems/zippy_diagnostics/robot_activity/robot_activity_tutorials/include/**",
+                "/workspaces/src/MPV/Localization/robot_localization/include/**",
+                "/workspaces/src/MPV/Systems/rosbag_recorder/include/**",
+                "/workspaces/src/MPV/Drivers/safety_controller/include/**",
+                "/workspaces/src/MPV/Systems/twist_mux/include/**",
+                "/workspaces/src/MPV/Systems/ui_aggregator/include/**",
+                "/workspaces/src/MPV/Systems/veloce_attachment/include/**",
+                "/workspaces/src/MPV/Drivers/veloce_bt/include/**",
+                "/workspaces/src/MPV/Navigation/veloce_control/include/**",
+                "/workspaces/src/MPV/Drivers/velocity_smoother/include/**",
+                "/usr/include/**",
+                "/workspaces/"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
 }

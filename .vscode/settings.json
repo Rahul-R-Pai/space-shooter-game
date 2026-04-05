@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "/home/rahulpai/veloce-core/Parameters",
+    "cmake.sourceDirectory": "/workspaces/space-shooter-game",
     "python.autoComplete.extraPaths": [
         "/workspaces/devel/lib/python3/dist-packages",
         "/home/veloce/third_party/lib/python3/dist-packages",
